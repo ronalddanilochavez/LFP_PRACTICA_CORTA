@@ -1,0 +1,23 @@
+﻿<Window x:Class="LFP_PRACTICA_CORTA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LFP_PRACTICA_CORTA"
+        mc:Ignorable="d"
+        Title="PRÁCTICA CORTA Ronald Danilo Chávez 200130586" Height="450" Width="800" HorizontalAlignment="Center" ResizeMode="NoResize" Icon="Lexer.png" VerticalAlignment="Center" WindowStartupLocation="CenterScreen">
+    <Window.Effect>
+        <DropShadowEffect Color="#FF9EC2DA" Opacity="0.5"/>
+    </Window.Effect>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonAnalize" Content="Analizar TOKENS Léxicos" HorizontalAlignment="Left" Height="61" Margin="276,121,0,0" VerticalAlignment="Top" Width="242" Click="ButtonAnalize_Click"/>
+        <Label x:Name="LabelTitle" Content="ANALIZADOR LÉXICO SIMPLE" HorizontalAlignment="Left" Height="26" Margin="285,15,0,0" VerticalAlignment="Top" Width="223"/>
+        <Label x:Name="LabelTitle_Copy" Content="Ingrese una oración con palabras, enteros, decimales o símbolo  de Quetzales" HorizontalAlignment="Left" Height="26" Margin="182,41,0,0" VerticalAlignment="Top" Width="428"/>
+        <TextBox x:Name="TextIntro" HorizontalAlignment="Left" Height="19" Margin="75,82,0,0" VerticalAlignment="Top" Width="645"/>
+        <TextBox x:Name="TextInfo" HorizontalAlignment="Left" Height="199" Margin="75,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" IsReadOnlyCaretVisible="True" VerticalScrollBarVisibility="Auto"/>
+
+    </Grid>
+</Window>
